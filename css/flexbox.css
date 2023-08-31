@@ -1,3 +1,8 @@
 .cabecalho__container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*o cabeçalho vai ficar fixo no topo*/
+    position: fixed;
+    top: 0;
 }
